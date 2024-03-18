@@ -1,0 +1,83 @@
+@font-face {
+font-family: "Cascadia Mono";
+src: local("Cascadia Mono"), url("/content/brand/cascadiamono.woff2");
+}
+
+@font-face {
+font-family: "Cascadia Mono Light";
+src: local("Cascadia Mono Light"), url("/content/brand/cascadiamono_light.woff2");
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	overflow: hidden;
+	font-family: "Cascadia Mono";
+}
+
+body {
+	padding: 60px;
+	display: flex;
+	flex-direction: column;
+	background-image: linear-gradient(rgb(157 208 208), rgb(157 108 208));
+}
+
+main {
+	height: calc(100% - 91px);
+	display: grid;
+	align-content: space-around;
+}
+
+article {
+	padding: 0px 30px 12px;
+	border-left: solid 6px white;
+}
+
+article:last-child {
+	padding: 0px 30px;
+}
+
+article.important {
+	color: white;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 48px;
+}
+
+h3 {
+	margin-top: 30px;
+	padding: 0px 0px 12px 30px;
+	border-left: solid 6px black;
+	font-size: 36px;
+}
+
+h4 {
+	font-size: 30px;
+}
+
+p {
+	font-size: 36px;
+	font-family: "Cascadia Mono Light";
+}
+
+p.important {
+	color: white;
+}
+
+@media (height > 1080px) {
+	html {
+		zoom: 150%;
+	}
+}
+
+@media (height < 1080px) {
+	html {
+		zoom: 60%;
+	}
+}
