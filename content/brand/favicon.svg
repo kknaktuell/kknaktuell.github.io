@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" fill="rgb(255 255 255)">
 	<defs>
-		<linearGradient id="1>
+		<linearGradient id="1" gradientTransform="rotate(90)">
 			<stop offset="0%" stop-color="rgb(157 208 208)" />
 			<stop offset="100%" stop-color="rgb(157 208 108)" />
 		</linearGradient>
