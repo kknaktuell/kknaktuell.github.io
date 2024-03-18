@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<base href="//kknaktuell.github.io/" />
+		<base href="//kknaktuell.github.io" />
 		
 		<title>Menüplan Samo</title>
 		<meta name="theme-color" content="rgb(157 208 208)">
@@ -11,8 +11,8 @@
 		<meta name="keywords" content="" />
 		
 		<link rel="icon" href="/content/brand/favicon.svg" />
-		<link rel="stylesheet" href="style.css" />
-		<script src="script.js"></script>
+		<link rel="stylesheet" href="/menüplan/style.css" />
+		<script src="/menüplan/script.js"></script>
 		
 		<meta property="og:title" content="Menüplan Samo" />
 		<meta property="og:description" content="" />
